@@ -36,6 +36,8 @@ public:
     void MA2() {
         cout << "Método MA2() da classe A" << endl;
     }
+
+    
 };
 
 
@@ -45,6 +47,7 @@ int main() {
 
     objetoA.MA1();
     objetoA.MA2();
+    
 
     return 0;
 }
