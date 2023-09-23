@@ -37,7 +37,9 @@ public:
         cout << "Método MA2() da classe A" << endl;
     }
 
-    
+    void MA3() {
+        cout << "Alteracao da classe A a partir do clone" << endl;
+    }
 };
 
 
@@ -47,7 +49,7 @@ int main() {
 
     objetoA.MA1();
     objetoA.MA2();
-    
+    objetoA.MA3();
 
     return 0;
 }
