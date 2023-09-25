@@ -45,6 +45,10 @@ public:
         cout << "Método MD2() da classe D" << endl;
     }
 
+    void MD3() {
+        cout << "Método MD3() da classe D" << endl;
+    }
+
 };
 
 
@@ -53,6 +57,7 @@ int main() {
 
 
     objetoD.MD1();
+    objetoD.MD2();
     objetoD.MD2();
 
     return 0;
