@@ -45,9 +45,7 @@ public:
         cout << "Método MD2() da classe D" << endl;
     }
 
-     void MD4() {
-        cout << "Método MD4() da classe D" << endl;
-    }
+  
 
 };
 
@@ -58,7 +56,6 @@ int main() {
 
     objetoD.MD1();
     objetoD.MD2();
-    objetoD.MD4();
 
     return 0;
 }
