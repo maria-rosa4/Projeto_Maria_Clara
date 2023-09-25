@@ -21,7 +21,7 @@ public:
     }
 
 
-    void setC1(int C1) {
+    void setC1(int c1) {
         C1 = c1;
     }
 
@@ -41,10 +41,14 @@ public:
         cout << "Método MC1() da classe C" << endl;
     }
 
-
     void MC2() {
         cout << "Método MC2() da classe C" << endl;
     }
+
+    void MC3() {
+        cout << "Método MC3() da classe C" << endl;
+    }
+
 };
 
 
@@ -54,7 +58,7 @@ int main() {
 
     objetoC.MC1();
     objetoC.MC2();
-
+    objetoC.MC3();
 
     return 0;
 }
