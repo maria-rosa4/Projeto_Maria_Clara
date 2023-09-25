@@ -37,6 +37,10 @@ public:
     void MB2() {
         cout << "Método MB2() da classe B" << endl;
     }
+
+     void MB3() {
+        cout << "Método MB3() da classe B" << endl;
+    }
 };
 
 int main() {
@@ -44,6 +48,7 @@ int main() {
 
     objetoB.MB1();
     objetoB.MB2();
+    objetoB.MB3();
 
     return 0;
 }
